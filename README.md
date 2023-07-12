@@ -1,20 +1,24 @@
 # Mysql-Redshift-Streaming-DataPipeine
 This repo contain near real time streaming incremental load data pipeline Project. 
 
-Export data from mysql-database to AWS REDSHIFT using kafka.
+## Export data from mysql-database to AWS REDSHIFT using kafka.
 
 ![Data flow diagram](./diagram/dataflow-diagram.png)
 
-Problem Statement:
+## Problem Statement:
+
 We need to build an ETL pipeline to load mysql data base record to redshift using kafka
 ![MY SQL DATABASE](./diagram/mysql-oltp-database.png)
 
 
-RedShift Dataware house
+## RedShift Dataware house
 ![Red Shift](./diagram/redshift-olap-diagram.png)
+
+
 Approach
 1. Read data from mysql and  send to kafka topic and from kafka topic we will load to s3 bucket
 ![mysql-kafka-s3](./diagram/mysql-kafka-s3.png)
+
 
 2. Read data from s3 bucket and load in REDSHIFT
 ![s3-redshift](./diagram/s3-redshift.png)
