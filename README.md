@@ -1,5 +1,5 @@
 # Mysql-Redshift-Streaming-DataPipeine
-This repo contain near real time streaming incremental load data pipeline code. 
+This repo contain near real time streaming incremental load data pipeline Project. 
 
 Export data from mysql-database to AWS REDSHIFT using kafka.
 
