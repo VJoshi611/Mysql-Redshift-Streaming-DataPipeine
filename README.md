@@ -1,7 +1,7 @@
 # Mysql-Redshift-Streaming-DataPipeine
 This repo contain near real time streaming incremental load data pipeline Project. 
 
-## Export data from mysql-database to AWS REDSHIFT using kafka.
+### Export data from mysql-database to AWS REDSHIFT using kafka.
 
 ![Data flow diagram](./diagram/dataflow-diagram.png)
 
